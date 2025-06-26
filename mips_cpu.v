@@ -1,6 +1,26 @@
 // Top-level pipelined MIPS module: mips_pipeline.v
 
 `timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 26.05.2025 19:59:49
+// Design Name: 
+// Module Name: czdg
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
 
 module mips_cpu (
     input  wire clk,
