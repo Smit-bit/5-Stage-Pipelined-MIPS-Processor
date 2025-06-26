@@ -39,23 +39,37 @@ This project is a fully functional 5-stage pipelined MIPS processor implemented 
 
 
 🧠 Features
+
 ✅ 5-stage pipeline: IF, ID, EX, MEM, WB
+
 ✅ Modular design using Verilog HDL
+
 ✅ Support for key MIPS instructions:
+
 Arithmetic: add, sub
+
 Load/Store: lw, sw
+
 Branch: beq
+
 ✅ Implements:
+
 Hazard detection unit (for load-use hazards)
+
 Forwarding unit (for data dependencies)
+
 Pipeline registers (IF/ID, ID/EX, EX/MEM, MEM/WB)
+
 ✅ Verified using testbenches and waveform simulation in Vivado or ModelSim
 
 ModelSim
 
 📌 ISA Subset Supported
+
 Instruction Type	Instructions
+
 R-type	add, sub
+
 I-type	addi, lw, sw, beq
 
 ⚠️ Logical (and, or, etc.) and jump instructions (j, jr) are not yet implemented.
@@ -63,9 +77,13 @@ I-type	addi, lw, sw, beq
 .
 
 🛠 Future Work
+
 1.Add basic exception handling (syscall, overflow detection)
+
 2.Synthesize to FPGA (e.g., Basys 3)
+
 3.Expand the instruction set
+
 
 
 
